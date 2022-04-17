@@ -7,8 +7,8 @@ const boredApi = () => {
     })
 };
 
-const boredApiByKey = (id) => {
-    console.log("Really bored, but by Id");
+const boredApiByKey = (key) => {
+    console.log("Really bored, but by Key");
     return axios.get(`${process.env.boredApiURL}${key}`).then(result => {
         return result.data
     })

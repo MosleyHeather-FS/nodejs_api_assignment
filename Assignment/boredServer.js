@@ -10,7 +10,7 @@ const app = express();
 
 // for localhost:3000/
 app.get("/", (req, res, next) => {
-    res.status(200).send("Server is up!")
+    res.status(200).send("Server is up!!")
 });
 
 // get external service
