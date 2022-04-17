@@ -1,6 +1,7 @@
 const express = require("express");
 require("dotenv").config();
 
+
 const {
     boredApi,
     boredApiByKey
