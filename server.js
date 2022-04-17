@@ -4,7 +4,7 @@ require("dotenv").config();
 const {
     boredApi,
     boredApiByKey
-} = require("./Assignment/boredApi");
+} = require("./services/todoService");
 
 const app = express();
 
